@@ -37,7 +37,7 @@ public class Validacion extends AppCompatActivity {
             startActivity(I);
         }
         public void editar(View v){
-            Intent I=new Intent(getApplicationContext(),Home.class);
+            Intent I=new Intent(getApplicationContext(),copia.class);
             I.putExtra("nombre",nombre.getText().toString());
             I.putExtra("apellido", apellido.getText().toString());
             I.putExtra("correo", correo.getText().toString());

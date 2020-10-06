@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home"></activity>
+        <activity android:name=".copia"></activity>
+        <activity android:name=".Home" />
         <activity android:name=".CalculadorNotas" />
         <activity android:name=".Validacion" />
         <activity android:name=".MainActivity">
